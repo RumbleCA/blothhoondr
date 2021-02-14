@@ -49,36 +49,7 @@ namespace blothhoondr
 
             KD = kills / deaths;
 
-        }
-        
-        // CODE BEYOND THIS POINT BROKEN!!
-        static void Players()
-        {
-            var names = new[]
-            {
-                new
-                {
-                    letters = ( "Q","W","E","R","T" ),
-                    bonusletters = new[] { "a","s","d","f","g" }
-
-                },
-                new
-                {
-                    moreletters = ( "z","x","v","c","b" ),
-                    extraletters = new[] {"u","i","o","p","j" }
-                
-                }
-            }
-        }
-        
-
-        
-          
-            
-       
-
-        
-        
+        } 
         
     }
 }
