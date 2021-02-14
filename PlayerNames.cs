@@ -10,7 +10,7 @@ namespace blothhoondr
         static void Letters(int yep)
         {
             Random r = new Random();
-
+                                   // vowels and consonants bring up errors CS0029: cannot implicity convert type  
             string[] consonants = ("qu", "w", "r", "t", "p", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m");
             string[] vowels = ("a", "e", "i", "o", "u", "y");
             string name = "";
