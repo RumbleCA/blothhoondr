@@ -9,45 +9,59 @@ namespace blothhoondr
     {
         static void GamesWon()
         {
-            int wins;
+             Decimal wins;
 
             Random win = new Random();
-            wins = win.Next(750, 17500);
+            wins = win.Next(750, 15000);
 
-            int games;
+            Decimal games;
 
             Random game = new Random();
             games = game.Next(1500, 20000);
 
-            int WL;
+            Decimal WL;
 
             WL = wins / games;
+            Convert.ToDecimal(WL);
+
+            decimal b = Convert.ToDecimal(WL);
+
+            WL = Math.Round(WL, 1, MidpointRounding.ToEven);
+
 
 
         }
+        
         static void TopTens()
         {
             int tops;
 
             Random top = new Random();
-            tops = top.Next(1250, 18000);
+            tops = top.Next(1500, 18000);
 
         }
+       
         static void DeathandKills()
         {
-            int deaths;
+            Decimal deaths;
 
             Random death = new Random();
-            deaths = death.Next(1000, 12000);
+            deaths = death.Next(1500, 12000);
 
-            int kills;
+            Decimal kills;
 
             Random kill = new Random();
-            kills = kill.Next(1000, 25000);
+            kills = kill.Next(12000, 25000);
 
-            int KD;
+            Decimal KD;
 
             KD = kills / deaths;
+            Convert.ToDecimal(KD);
+
+            decimal b = Convert.ToDecimal(KD);
+
+            KD = Math.Round(KD, 1, MidpointRounding.ToEven);
+
 
         } 
         
